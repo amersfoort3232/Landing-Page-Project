@@ -10,13 +10,12 @@ html, body, #page {
     display: flex;
     padding: 1rem;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1f2937;
+    padding: 3rem;
 }
 
 .navbar-logo{
-    font-weight: 700;
-    color: white;
 }
 
 /* .navbar-menu ul {float: left;
@@ -41,13 +40,14 @@ li {
     text-decoration: none;
     color: white; 
     gap:2rem;
+    font-size: 18px;
 
 }
 .content {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 4rem;
     background-color: #1f2937;
     
 }
@@ -127,6 +127,7 @@ button {
     padding: 2rem;
     background-color: #3882f6;
     border-radius: 5px;
+    font-size: 18px;
     
 }
 .Signup p{
